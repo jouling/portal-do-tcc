@@ -5,35 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <title>Login</title>
 </head>
 
 <body>
-    <div class="conteudo-centralizado">
-        <form class="login">
-            <h1>PORTAL DO TCC - IFSP</h1>
-            <div class="form-group">
-                <input type="checkbox" name="usertype" id="usertype-orientador" value="orientador">
-                <label for="usertype-orientador" name="orientador">Orientador</label>
-                <input type="checkbox" name="usertype" id="usertype-admin" value="administrador">
-                <label for="usertype-admin" name="admin">Administrador</label>
-                <input type="checkbox" name="usertype" id="usertype-aluno" value="aluno">
-                <label for="usertype-aluno" name="aluno">Aluno</label>
-            </div>
-            <div class="form-group">
-                <input type="email" name="email" id="email" placeholder="E-mail">
-                <label for="email">E-mail</label>
-            </div>
-            <div class="form-group">
-                <input type="password" name="senha" id="senha" placeholder="Senha">
-                <label for="senha">Senha</label>
-            </div>
-            <button>Entrar</button>
+    <div class="principal">
+        
+        <div class="painel centralizado">
 
-            <a href="">Cadastrar</a>
-            <a href="">Esqueci a senha</a>
-        </form>
+            <h1 class="text-center titulo">Portal do TCC - IFSP</h1>
+
+            <form class>
+                <div class="container">
+                    <div class="form-group">
+                        <input type="checkbox" name="usertype" id="usertype-orientador" value="orientador">
+                        <label for="usertype-orientador" name="orientador">Orientador</label>
+                        <input type="checkbox" name="usertype" id="usertype-admin" value="administrador">
+                        <label for="usertype-admin" name="admin">Administrador</label>
+                        <input type="checkbox" name="usertype" id="usertype-aluno" value="aluno">
+                        <label for="usertype-aluno" name="aluno">Aluno</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" id="email" placeholder="E-mail" required>
+                        <label for="email">E-mail</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="senha" id="senha" placeholder="Senha" required>
+                        <label for="senha">Senha</label>
+                    </div>
+                </div>
+                <button class="button">Entrar</button>
+
+                <a href="">Cadastrar</a>
+                <a href="recover-password.html">Esqueci a senha</a>
+            </form>
+        </div>
     </div>
     <script src="assets/js/bootstrap/bootstrap.min.js"></script>
     <script src="assets/js/jquery-3.3.1.min.js"></script>

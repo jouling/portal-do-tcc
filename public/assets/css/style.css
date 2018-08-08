@@ -1,21 +1,40 @@
-h1{
-    font-size: 52px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.login{
-    text-align: center;
-    justify-content: center;
+.painel{
     width: 80%;
     border-radius: 35px 33px 35px 31px;
     box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    background-color: #fff;
 }
 
+.principal{
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: rgba(0,0,0,0.5);
 
-.conteudo-centralizado{
+}
+
+.centralizado{
+    /*
+    text-align: center;
+    justify-content: center;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     position: relative;
     align-items: center;
+    */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titulo{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.button{
+    margin-bottom: 20px;
 }
