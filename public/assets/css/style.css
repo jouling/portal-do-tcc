@@ -92,7 +92,6 @@ input[name='usertype']:checked > label{
 }
 .profile p{
     display: inline-block;
-    margin: 0 18px;
     font-size: 34px;
     letter-spacing: 2px;
 }
@@ -103,6 +102,38 @@ input[name='usertype']:checked > label{
 .menu ul li{
     display: inline;
     padding: 12px;
+}
+.menu ul{
+    width: 100%;
+    display: inline-block;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+}
+.rules-abnt h2{
+    font-size: 24px;
+    margin-bottom: 22px;
+}
+.padding-title{
+    padding: 16px;
+}
+.item-abnt{
+    border: solid thin blue;
+    padding: 18px;
+    border-radius: 20px;
+    min-height: 140px;
+    margin: 0 26px;
+}
+.item-abnt h3{
+    text-transform: uppercase;
+    color: turquoise;
+    font-size: 20px;
+    text-align: center;
+}
+.item-abnt h6{
+    text-align: center;
+    text-align: center;
+    line-height: 18px;
 }
 .repositorio{
     padding: 32px 2%;
@@ -148,4 +179,16 @@ input[name='usertype']:checked > label{
 }
 .search-option::placeholder{
     color: #000;
+}
+@media screen and (max-width: 1400px){
+.titulo{
+    font-size: 32px;
+    position: relative;
+    padding: 16px 0!important;
+    margin-top: 40px;
+}
+}
+
+.input-cadastro{
+    width: 100%;
 }

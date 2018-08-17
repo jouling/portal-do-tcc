@@ -6,24 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/app.css">
-    <title>Login</title>
+    <title>Confirmar cadastro</title>
 </head>
 
 <body>
     <div class="principal">
-        
+
         <div class="painel centralizado">
-            <div class="breadcrump">Login</div>
+            <div class="breadcrump">Cadastro</div>
 
             <h1 class="text-center titulo">Portal do TCC - IFSP</h1>
 
-            <form class>
+            <form>
                 <div class="container">
                     <div class="form-group user-type-group">
                         <input type="radio" name="usertype" id="usertype-orientador" value="orientador">
                         <label for="usertype-orientador" name="orientador" class="user-type">Orientador</label>
-                        <input type="radio" name="usertype" id="usertype-admin" value="administrador">
-                        <label for="usertype-admin" name="admin" class="user-type">Administrador</label>
+                        <!--    <input type="radio" name="usertype" id="usertype-admin" value="administrador">
+                        <label for="usertype-admin" name="admin" class="user-type">Administrador</label> -->
                         <input type="radio" name="usertype" id="usertype-aluno" value="aluno">
                         <label for="usertype-aluno" name="aluno" class="user-type">Aluno</label>
                     </div>
@@ -32,14 +32,14 @@
                         <label for="email">E-mail</label>
                     </div>
                     <div class="form-group">
-                        <input type="password" name="senha" id="senha" placeholder="Senha" required>
-                        <label for="senha">Senha</label>
+                        <input type="password" name="codigo" id="codigo" placeholder="Código" required>
+                        <label for="codigo">Código</label>
                     </div>
                 </div>
-                <button class="button btn-form text-center">Entrar</button>
+                <button class="button btn-form text-center">Confirmar</button>
 
-                <a href="confirmar-cadastro.html">Cadastrar |</a>
-                <a href="recover-password.html">Esqueci a senha</a>
+                <p>Entre com o código enviado em seu e-mail para se cadastrar.</p>
+                <p>Caso não possua, peça ao seu orientador ou o administrador.</p>
             </form>
         </div>
     </div>
