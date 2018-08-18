@@ -7,6 +7,10 @@
     <title>Workflow</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/app.css" />
+    <link rel="stylesheet" href="assets/css/DatePickerX.css">
+
+
+
 </head>
 
 <body>
@@ -39,31 +43,53 @@
             </div>
     </div>
     </header>
+
+    <div id="calendario">
+        <p class="titulo-tarefa">Deseja adicionar tarefa?</p>
+        <div style="font-size: 13px">
+            <input type="text" name="demo" placeholder="Selecione a data">
+            <label for="demo">Selecione a data</label>
+            <button class="button btn-form text-center" style="margin-top: 4%">Ir agendar</button>
+        </div>
+    </div>
+
     <div>
         <p class="workflow" style="margin-top: 2%">Geral</p>
         <hr class="hr-workflow destaques">
         <div class="items">
-            <h1 class="titulo-tarefa" ><b>Planejar linha de pesquisa</b></h1>
+            <h1 class="titulo-tarefa">
+                <b>Planejar linha de pesquisa</b>
+            </h1>
             <p>Lorem ipsum taciti mauris libero fringilla hendrerit.</p>
             <p class="contador">Restam 13 dias</p>
         </div>
         <div class="items" style="margin-top: 20px">
-        <h1 class="titulo-tarefa" ><b>Apresentar a introdução</b></h1>
+            <h1 class="titulo-tarefa">
+                <b>Apresentar a introdução</b>
+            </h1>
             <p>Lorem ipsum taciti mauris libero fringilla hendrerit.</p>
             <p class="contador">Restam 27 dias</p>
         </div>
-        
+
         <p class="workflow" style="margin-top: 40px">Concluídas</p>
         <hr class="hr-workflow destaques">
         <div class="items" style="margin-top: 20px">
-            <h1 class="titulo-tarefa" ><b>Escolher tema</b></h1>
+            <h1 class="titulo-tarefa">
+                <b>Escolher tema</b>
+            </h1>
             <p>Hendrerit suscipit ad hac tortor cras gravida, mollis etiam sed fringilla interdum nam scelerisque.</p>
         </div>
-
     </div>
+    </div>
+    </div>
+
     <script src="assets/js/bootstrap/bootstrap.min.js"></script>
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/DatePickerX.js"></script>
+    <script src="assets/js/calendar.js"></script>
+
+
 </body>
 
 </html>

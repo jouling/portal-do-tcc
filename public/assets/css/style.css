@@ -226,3 +226,11 @@ input[name='usertype']:checked > label{
     font-size: 13px;
     line-height: 0;
 }
+
+#calendario{
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 50%;
+    
+
+}
