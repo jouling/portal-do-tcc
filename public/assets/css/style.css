@@ -29,12 +29,12 @@
     color: #fff;
 
 }
-.active{
+.config-breadcrump{
     background-image: url("../img/background-breadcrump.png");
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 20%, 87% 50%, 100% 80%, 100% 100%, 0% 100%);
     clip-path: polygon(0% 0%, 100% 0%, 100% 20%, 87% 50%, 100% 80%, 100% 100%, 0% 100%);
     padding: 15px 29px;
-    color: #fff;
+    color: #fff !important;
 }
 .user-type-group input{
     display: none;
@@ -135,7 +135,7 @@ input[name='usertype']:checked > label{
     text-align: center;
     line-height: 18px;
 }
-.repositorio{
+.esfumacado{
     padding: 32px 2%;
 }
 .repositorio form a{
@@ -219,6 +219,7 @@ input[name='usertype']:checked > label{
 .titulo-tarefa{
     font-size: 15px;
     line-height: 8px;
+    font-weight: bold;
 }
 
 .contador{
@@ -231,6 +232,23 @@ input[name='usertype']:checked > label{
     position: absolute;
     margin-top: 1.5%;
     margin-left: 50%;
-    
+}
 
+.breadcrump-link{
+    color: #fff;
+    padding-right: 0;
+    padding-left: 0; 
+}
+
+textarea{
+    max-height: 60px;
+    min-height: 50px;
+}
+
+.adaptado{
+    height: 130vh;   
+}
+
+.upload{
+    background-color: #f2f2f2;
 }

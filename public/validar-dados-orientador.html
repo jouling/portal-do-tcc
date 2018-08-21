@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Validação de dados - Orientador</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/app.css" />
+</head>
+
+<body>
+    <div class="principal adaptado">
+        <div class="painel centralizado">
+            <div class="breadcrump" style="-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 20%, 96% 50%, 100% 80%, 100% 100%, 0% 100%);
+            clip-path: polygon(0% 0%, 100% 0%, 100% 20%, 96% 50%, 100% 80%, 100% 100%, 0% 100%);">
+                <a class="breadcrump-link" href="confirmar-cadastro.html">Cadastro </a> > Atualização dados do orientador</div>
+            <h1 class="text-center titulo">Portal do TCC - IFSP</h1>
+
+            <form>
+                <div class="container">
+
+                    <div class="form-group">
+                        <input type="text" name="nome-orientador" id="nome-orientador" class="input-cadastro" placeholder="Domingos Lucas">
+                        <label for="nome-orientador">Nome:</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" name="prontuario-orientador" id="prontuario-orientador" class="input-cadastro" disabled value="165179X">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" name="email" id="email" class="input-cadastro" disabled value="hipolito17@gmail.com">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" name="departamento-orientador" id="departamento-orientador" class="input-cadastro" placeholder="Diretoria de Informática e Turismo">
+                        <label for="departamento-orientador">Departamento:</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" name="linha-pesquisa" id="linha-pesquisa" class="input-cadastro" placeholder="Programação back-end">
+                        <label for="linha-pesquisa">Linha de Pesquisa:</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="number" name="grade-horaria" id="grade-horaria" class="input-cadastro">
+                        <label for="grade-horaria">Grade Horária:</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="date" name="birthdate-orientador" id="birthdate-orientador" class="input-cadastro" required>
+                        <label for="birthdate-orientador">Data de nascimento:</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" name="disciplina" id="disciplina" class="input-cadastro">
+                        <label for="disciplina">Disciplina ministrada:</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="password" name="senha-orientador" id="senha-orientador" class="input-cadastro" required>
+                        <label for="senha-orientador">Senha:</label>
+                    </div>
+                </div>
+                <button class="button btn-form text-center">Confirmar</button>
+            </form>
+
+        </div>
+
+    </div>
+    <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

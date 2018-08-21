@@ -11,7 +11,7 @@
 
 <body>
     <div class="principal">
-        
+
         <div class="painel centralizado">
             <div class="breadcrump">Cadastrar Grupo</div>
 
@@ -19,37 +19,39 @@
 
             <form class>
                 <div class="container">
-                        <div class="form-group">
-                                <input type="text" name="nome" id="nome" placeholder="Nome:" required>
-                                <label for="nome">Nome</label>
-                            </div>
-                            <div class="form-group">
-                                    <input type="text" name="titulo" id="titulo" placeholder="Titulo:" required>
-                                    <label for="titulo">Titulo</label>
-                                </div>
                     <div class="form-group">
-                            <input type="text" name="curso" id="curso" placeholder="Curso:" required>
-                            <label for="curso">Curso</label>
+                        <input type="text" name="nome" id="nome" placeholder="Nome:" required>
+                        <label for="nome">Nome</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="titulo" id="titulo" placeholder="Titulo:" required>
+                        <label for="titulo">Titulo</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="curso" id="curso" placeholder="Curso:" required>
+                        <label for="curso">Curso</label>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <label for="">Aluno</label>
+                            <p></p>
+                            <button>Cadastrar Novo Aluno</button>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-5">
-                                <label for="">Aluno</label> <p></p>
-                                <button>Cadastrar Novo Aluno</button>
-                            </div>
-                            <div class="col-lg-2">
-                                <button>></button>
-                            </div>
-                            <div class="col-lg-5">
-                                <label for="">Membros</label> <p></p>
-                                <select name="membros" size="6">
-                                        <option value="carine">Carine Eufrasino</option>
-                                        <option value="Lucas Eduardo">Lucas Eduardo</option>
-                                        <option value="Juliana Hipólito">Juliana Hipólito</option>
-                                        <option value="Ricardo Santos">Ricardo Santos</option>
-                                        <option value="Cecília Dourado">Cecília Dourado</option>
-                                </select>
-                            </div>
+                        <div class="col-lg-2">
+                            <button>></button>
                         </div>
+                        <div class="col-lg-5">
+                            <label for="">Membros</label>
+                            <p></p>
+                            <select name="membros" size="6">
+                                <option value="carine">Carine Eufrasino</option>
+                                <option value="Lucas Eduardo">Lucas Eduardo</option>
+                                <option value="Juliana Hipólito">Juliana Hipólito</option>
+                                <option value="Ricardo Santos">Ricardo Santos</option>
+                                <option value="Cecília Dourado">Cecília Dourado</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
                 <button class="button btn-form text-center">Cadastrar</button>
 
